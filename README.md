@@ -1,8 +1,7 @@
 remote-control-motor
 ====================
 
-Remotely controlling a motor using Arduino, Python and PHP
+Remotely controlling a motor using Arduino & PHP. The repository contains two folders:
 
-The complete tutorial can be found here :
-
-http://openhomeautomation.net/remotely-controlling-a-motor-using-arduino-python-and-php/
+- sketches: the different Arduino sketches of the project
+- interface: the interface to control the motor from your computer

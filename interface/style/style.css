@@ -1,0 +1,32 @@
+body {
+    font-family: 'Open Sans';
+}
+
+.buttonBlock{    
+    margin: 25px;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.buttonTitle {
+    font-size: 30px;
+    margin-right: 15px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mainContainer {
+    width: 560px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=range]{
+    margin-left: 25px;
+}
