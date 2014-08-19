@@ -20,15 +20,14 @@ void loop()
    // Accelerate forward
    for (motor_speed = 0; motor_speed < 250; motor_speed++)
    {
-      setMotor("0,1," + String(motor_speed));
+      setMotor(true, motor_speed);
       delay(10);
    }
 }
 
 // Function to control the motor
-int setMotor(String command)
-{
-   digitalWrite(motorPinPlus, command[0]);
-   digitalWrite(motorPinMinus, command[2]);
+void setMotor(boolean forward, int motor_speed){
+   digitalWrite(motorPinPlus, forward);
+   digitalWrite(motorPinMinus, !forward);
    analogWrite(motorPinEnable, motor_speed);
 }
