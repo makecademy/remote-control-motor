@@ -12,7 +12,7 @@ $serial_port = "/dev/cu.usbmodem1a12121";
 try {
 	$serial = new phpSerial;
 	$serial->deviceSet($serial_port);
-	$serial->confBaudRate(9600);
+	$serial->confBaudRate(115200);
 	$serial->confParity("none");
 	$serial->confCharacterLength(8);
 	$serial->confStopBits(1);

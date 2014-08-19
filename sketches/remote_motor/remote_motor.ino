@@ -15,7 +15,7 @@ void setup(void)
   pinMode(motorPinPlus, OUTPUT);
   pinMode(motorPinMinus, OUTPUT);
   pinMode(motorPinEnable, OUTPUT);
-  Serial.begin(9600);
+  Serial.begin(115200);
   
   // Give name and ID to device
   rest.set_id("001");
